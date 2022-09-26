@@ -1,0 +1,17 @@
+.headerBackground {
+  background-image: url(./imgs/mainbg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.text-r {
+  color:#eb1f85!important;
+}
+
+.text-b {
+  color:#16acd1!important;
+}
+
+.text-p {
+  color:#922dc5!important;
+}

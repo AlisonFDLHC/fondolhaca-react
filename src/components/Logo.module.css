@@ -1,0 +1,18 @@
+.logo {
+    width: 100%!important;
+    height: 100%;
+}
+
+.c1 { 
+    fill: rgb(22, 172, 209); 
+} 
+.f1 { 
+    fill: none;
+    stroke: rgb(235, 31, 133);
+    stroke-width: 16;
+}
+.d1 {
+    fill: none;
+    stroke: rgb(146, 45, 197);
+    stroke-width: 16;
+}

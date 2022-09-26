@@ -1,0 +1,57 @@
+.header {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.headerTop {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.headerLink {
+    font-weight: normal;
+    color: rgb(165, 165, 165);
+    text-decoration: none!important;
+}
+
+.headerLink:hover {
+    color: rgb(221, 221, 221);
+}
+
+.contact a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+}
+
+.contact a:hover{
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+}
+
+.logoContainer {
+    width: 8rem;
+}
+
+.active {
+    color: white!important;
+}
+
+.inactive {
+    color: rgba(255, 255, 255, 0.5)!important;
+}
+
+
+@media screen and (max-width: 1000px){
+
+    .IconsContainer {
+        align-items: center!important;
+        justify-content: center!important;
+    }
+
+    .headerContactText {
+        display: none;
+    }    
+
+    .contact {
+        margin: 0!important;
+        gap: 1rem!important;
+    }
+}

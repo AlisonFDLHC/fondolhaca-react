@@ -1,0 +1,10 @@
+.cardServico {
+    width: 20rem;
+    height: 25rem;
+    background-color: #e5e3ee;
+    box-shadow: 0 0.5rem 0.5rem rgba(235, 31, 133, 0.5), 0.5rem 0 0.5rem rgba(22, 172, 209, 0.5);
+}
+
+.cardTitulo {
+    font-size: 1.3rem;
+}

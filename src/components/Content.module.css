@@ -1,0 +1,155 @@
+.mainTitle {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #131313;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.section:nth-child(even) {
+    background-color: #131313;
+    color: #e5e3ee;
+}
+
+.sectionText {
+    width: 100%;
+}
+
+.imgCard {
+    width: 100%;
+    border-radius: 0;
+}
+
+.Button {
+    background-color: #e5e3ee;
+    color: #131313;
+    border: none;
+}
+
+.Button:hover {
+    background-color: #131313;
+    color: #e5e3ee;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.Button.dark {
+    background-color: #131313;
+    color: #e5e3ee;
+    border: none;
+}
+
+.Button.dark:hover {
+    background-color: #e5e3ee;
+    color: #131313;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.saberMaisButton {
+    width: 10rem;
+    background-color: #e5e3ee;
+    border: none;
+    color: #131313;
+    font-weight: 500;
+}
+
+.saberMaisButton:hover {
+    background-color: #131313;
+    box-shadow: 0 0 1rem rgba(229, 227, 238, 0.2);
+}
+
+.saberMaisButton.dark {
+    width: 10rem;
+    background-color: #131313;
+    border: none;
+    color: #e5e3ee;
+    font-weight: 500;
+}
+
+.saberMaisButton.dark:hover {
+    background-color: #e5e3ee;
+    color: #131313;
+    box-shadow: 0 0 1rem rgba(229, 227, 238, 0.2);
+}
+
+.servicosContato {
+    margin: 10rem auto!important;
+}
+
+.servicosContent {
+    background-color: #0b0d11;
+}
+
+.formContainer {
+    width: 100%;
+}
+
+.formButton {
+    align-self: flex-end;
+}
+
+.formInput {
+    border: 3px solid black;
+    border-radius: 0;
+}
+
+.formInput:nth-child(1):focus,.formInput:nth-child(7):focus {
+    border-color: #eb1f85;
+    box-shadow: none;
+}
+
+.formInput:nth-child(3):focus {
+    border-color: #16acd1;
+    box-shadow: none;
+}
+
+.formInput:nth-child(5):focus {
+    border-color: #922dc5;
+    box-shadow: none;
+}
+
+.contactIconContainer > a > svg {
+    width: 2rem;
+}
+
+.contactIconContainer > a {
+    display: flex;
+    gap:1rem;
+    text-decoration: none;
+    color: #0b0d11;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.contactIconContainer:nth-child(1) > a > svg, .contactIconContainer:nth-child(4) > a > svg {
+    fill: #eb1f85;
+} 
+
+.contactIconContainer:nth-child(2) > a > svg, .contactIconContainer:nth-child(5) > a > svg {
+    fill: #16acd1;
+}
+
+.contactIconContainer:nth-child(3) > a > svg {
+    fill: #922dc5;
+}
+
+.contactIconContainer:hover > a > svg {
+    transform: none;
+} 
+
+
+@media screen and (max-width: 1000px) {
+    .servicosContato,.sectionContent {
+        flex-direction: column!important;
+    }
+
+    .sectionContent {
+        width: 90%;
+        padding: 2rem 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contatoContainer {
+        width: 90%;
+    }
+}
