@@ -18,7 +18,7 @@ const Main = ( {page} ) => {
                 )}
 
                 {page === "sobre" && (
-                    <Container fluid="sm" className={`d-flex flex-column align-items-center justify-content-center text-white ${styles.mainContent}`}>
+                    <Container fluid="sm" className={`d-flex flex-column align-items-center justify-content-center text-center text-white ${styles.mainContent}`}>
                         <h2 className={`display-6 fw-normal`}>QUEM SOMOS NÓS?</h2>
                         <h2 className={`display-6 fw-bold`}>OU MELHOR, <span className={`text-r`}>QUEM</span> NÃO SOMOS?</h2>
                     </Container>
