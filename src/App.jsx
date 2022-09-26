@@ -20,7 +20,7 @@ function App() {
     <Container fluid className={`headerBackground p-0`}>
       <Header/>
       <Routes>
-        <Route path="/" exact element={<Main page="main"/>}/>
+        <Route path="" exact element={<Main page="main"/>}/>
         <Route path="sobre" exact element={<Main page="sobre"/>}/>
         <Route path="servicos" exact element={<Main page="servicos"/>}/>
         <Route path="contato" exact element={<Main page="contato"/>}/>
