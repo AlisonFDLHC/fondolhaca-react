@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/fondolhaca-react/static/media/partner.da8089e0.png"
   },
   {
-    "revision": "0698cf91037387272f65af259030f4a3",
+    "revision": "8b57b6db745e573468ead69137e7912e",
     "url": "/fondolhaca-react/index.html"
   }
 ];
