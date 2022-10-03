@@ -20,14 +20,14 @@ function App() {
     <Container fluid className={`headerBackground p-0`}>
       <Header/>
       <Routes>
-        <Route path="" exact element={<Main page="main"/>}/>
+        <Route path="fondolhaca-react" exact element={<Main page="main"/>}/>
         <Route path="sobre" exact element={<Main page="sobre"/>}/>
         <Route path="servicos" exact element={<Main page="servicos"/>}/>
         <Route path="contato" exact element={<Main page="contato"/>}/>
       </Routes>
     </Container>
     <Routes>
-      <Route path="/" exact element={<Content page="main"/>}/>
+      <Route path="fondolhaca-react" exact element={<Content page="main"/>}/>
       <Route path="sobre" exact element={<Content page="sobre"/>}/>
       <Route path="servicos" exact element={<Content page="servicos"/>}/>
       <Route path="contato" exact element={<Content page="contato"/>}/>

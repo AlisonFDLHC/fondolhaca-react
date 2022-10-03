@@ -57,8 +57,8 @@ const Header = () => {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="ms-auto text-end">
-                                <Link to="/" className={`${styles.headerLink} display-6 fs-5`}>
-                                    <Nav.Link href="#home" className={url.pathname === '/' ? `${styles.active}` : `${styles.inactive}` } >Home</Nav.Link>
+                                <Link to="fondolhaca-react" className={`${styles.headerLink} display-6 fs-5`}>
+                                    <Nav.Link href="#fondolhaca-react" className={url.pathname === '/fondolhaca-react' ? `${styles.active}` : `${styles.inactive}` } >Home</Nav.Link>
                                 </Link>
                                 <Link to="sobre" className={`${styles.headerLink} text-danger display-6 fs-5`}>
                                     <Nav.Link href="#sobre" className={url.pathname === '/sobre' ? `${styles.active}` : `${styles.inactive}` }>Sobre Nós</Nav.Link>
