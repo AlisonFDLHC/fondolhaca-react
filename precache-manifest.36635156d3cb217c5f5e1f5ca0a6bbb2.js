@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "43397fc9b551536e59a3",
-    "url": "/fondolhaca-react/static/css/main.b0a17d58.chunk.css"
+    "revision": "d67ff3f31b72a4e2552b",
+    "url": "/fondolhaca-react/static/css/main.9751e43a.chunk.css"
   },
   {
-    "revision": "43397fc9b551536e59a3",
-    "url": "/fondolhaca-react/static/js/main.be9f94ec.chunk.js"
+    "revision": "d67ff3f31b72a4e2552b",
+    "url": "/fondolhaca-react/static/js/main.e2a89a0d.chunk.js"
   },
   {
     "revision": "d6dfe1ce62799eb35301",
     "url": "/fondolhaca-react/static/js/runtime~main.85dbd28e.js"
   },
   {
-    "revision": "56eef153ef68db1bf204",
-    "url": "/fondolhaca-react/static/css/2.e5ed1ad1.chunk.css"
+    "revision": "a077e85bbffafe574706",
+    "url": "/fondolhaca-react/static/css/2.afaa3560.chunk.css"
   },
   {
-    "revision": "56eef153ef68db1bf204",
-    "url": "/fondolhaca-react/static/js/2.de394700.chunk.js"
+    "revision": "a077e85bbffafe574706",
+    "url": "/fondolhaca-react/static/js/2.0fff8fc3.chunk.js"
   },
   {
     "revision": "e5d2841de8cb9757b815801357ffbfa4",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/fondolhaca-react/static/media/partner.da8089e0.png"
   },
   {
-    "revision": "8b57b6db745e573468ead69137e7912e",
+    "revision": "7d94af61121c106379d75cbd67764df3",
     "url": "/fondolhaca-react/index.html"
   }
 ];
