@@ -152,7 +152,7 @@ const handleSubmit = (event) => {
                                     </Container>
                                     <Container className={`container-sm d-flex flex-column align-items-center justify-content-center my-5`}>
                                         <h4 className={`fw-bold fs-3`}>LIGUE OU PREENCHA NOSSO FORMULÁRIO</h4>
-                                        <Link to="/servicos">
+                                        <Link to="servicos">
                                             <Button className={`${styles.Button} ${styles.dark} fw-bold mt-3`}>CONHEÇA NOSSOS SERVIÇOS</Button>
                                         </Link>
                                     </Container>
@@ -172,7 +172,7 @@ const handleSubmit = (event) => {
                                     </Container>
                                     <Container className={`container-sm d-flex flex-column align-items-center justify-content-center py-5`}>
                                         <h4 className={`fw-bold fs-3 text-white`}>MARQUE UM HORARIO DE ATENDIMENTO</h4>
-                                        <Link to="/contato">
+                                        <Link to="contato">
                                             <Button className={`${styles.Button} fw-bold mt-3`}>ENTRE EM CONTATO CONOSCO</Button>
                                         </Link>  
                                     </Container>

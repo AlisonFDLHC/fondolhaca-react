@@ -60,14 +60,14 @@ const Header = () => {
                                 <Link to="fondolhaca-react" className={`${styles.headerLink} display-6 fs-5`}>
                                     <Nav.Link href="#fondolhaca-react" className={url.pathname === '/fondolhaca-react' ? `${styles.active}` : `${styles.inactive}` } >Home</Nav.Link>
                                 </Link>
-                                <Link to="sobre" className={`${styles.headerLink} text-danger display-6 fs-5`}>
-                                    <Nav.Link href="#sobre" className={url.pathname === '/sobre' ? `${styles.active}` : `${styles.inactive}` }>Sobre Nós</Nav.Link>
+                                <Link to="fondolhaca-react/sobre" className={`${styles.headerLink} text-danger display-6 fs-5`}>
+                                    <Nav.Link href="#sobre" className={url.pathname === '/fondolhaca-react/sobre' ? `${styles.active}` : `${styles.inactive}` }>Sobre Nós</Nav.Link>
                                 </Link>
-                                <Link to="servicos" className={`${styles.headerLink} display-6 fs-5`}>
-                                    <Nav.Link href="#servicos" className={url.pathname === '/servicos' ? `${styles.active}` : `${styles.inactive}` } >Serviços</Nav.Link>
+                                <Link to="fondolhaca-react/servicos" className={`${styles.headerLink} display-6 fs-5`}>
+                                    <Nav.Link href="#servicos" className={url.pathname === '/fondolhaca-react/servicos' ? `${styles.active}` : `${styles.inactive}` } >Serviços</Nav.Link>
                                 </Link>
-                                <Link to="contato" className={`${styles.headerLink} display-6 fs-5`}>
-                                    <Nav.Link href="#contato" className={url.pathname === '/contato' ? `${styles.active}` : `${styles.inactive}` } >Contato</Nav.Link>
+                                <Link to="fondolhaca-react/contato" className={`${styles.headerLink} display-6 fs-5`}>
+                                    <Nav.Link href="#contato" className={url.pathname === '/fondolhaca-react/contato' ? `${styles.active}` : `${styles.inactive}` } >Contato</Nav.Link>
                                 </Link>
                                
                                 
