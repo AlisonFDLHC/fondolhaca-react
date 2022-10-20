@@ -21,16 +21,16 @@ function App() {
       <Header/>
       <Routes>
         <Route path="fondolhaca-react" element={<Main page="main"/>}/>
-        <Route path="sobre" exact element={<Main page="sobre"/>}/>
-        <Route path="servicos" exact element={<Main page="servicos"/>}/>
-        <Route path="contato" exact element={<Main page="contato"/>}/>
+        <Route path="fondolhaca-react/sobre" exact element={<Main page="sobre"/>}/>
+        <Route path="fondolhaca-react/servicos" exact element={<Main page="servicos"/>}/>
+        <Route path="fondolhaca-react/contato" exact element={<Main page="contato"/>}/>
       </Routes>
     </Container>
     <Routes>
       <Route path="fondolhaca-react" element={<Content page="main"/>}/>
-      <Route path="sobre" exact element={<Content page="sobre"/>}/>
-      <Route path="servicos" exact element={<Content page="servicos"/>}/>
-      <Route path="contato" exact element={<Content page="contato"/>}/>
+      <Route path="fondolhaca-react/sobre" exact element={<Content page="sobre"/>}/>
+      <Route path="fondolhaca-react/servicos" exact element={<Content page="servicos"/>}/>
+      <Route path="fondolhaca-react/contato" exact element={<Content page="contato"/>}/>
     </Routes>  
     
     <Footer />
