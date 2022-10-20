@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fondolhaca-react/precache-manifest.7dabf2bead65b3925e433e5271f57d41.js"
+  "/fondolhaca-react/precache-manifest.3f51aa6c0805356415663664705277d0.js"
 );
 
 workbox.clientsClaim();

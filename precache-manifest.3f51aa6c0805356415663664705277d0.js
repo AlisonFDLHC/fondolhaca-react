@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f42a1bea30d82f108e35",
+    "revision": "e917ff8fa7f8fb96a350",
     "url": "/fondolhaca-react/static/css/main.9751e43a.chunk.css"
   },
   {
-    "revision": "f42a1bea30d82f108e35",
-    "url": "/fondolhaca-react/static/js/main.fa0c75d6.chunk.js"
+    "revision": "e917ff8fa7f8fb96a350",
+    "url": "/fondolhaca-react/static/js/main.2835a3fd.chunk.js"
   },
   {
     "revision": "d6dfe1ce62799eb35301",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/fondolhaca-react/static/media/partner.da8089e0.png"
   },
   {
-    "revision": "781f38bb78b74f1f657de4e5aae3dec6",
+    "revision": "d225ee6d69928a4ff9d1ad8e8ba1427b",
     "url": "/fondolhaca-react/index.html"
   }
 ];
