@@ -62,7 +62,7 @@ const handleSubmit = (event) => {
                                                 <h4 className={`fs-1 fw-normal`}>QUEM SOMOS</h4>
                                                 <small className={`text-muted fs-5 my-2`}>Sobre a Fondolhaca</small>
                                                 <p className={`fs-4`}>A <span className={`text-r`}>Fondolhaca</span> é uma empresa focada em atender os mais diversos tipos de <span className={`text-b`}>serviços</span>.</p>
-                                                <Link to="sobre" href="#sobre">
+                                                <Link to="/sobre" href="#sobre">
                                                     <a href="#sobre">
                                                         <Button className={`${styles.saberMaisButton}`}>Saber Mais</Button>
                                                     </a>                                                  
@@ -76,7 +76,7 @@ const handleSubmit = (event) => {
                                                 <h4 className={`fs-1 fw-normal`}>NÃO SE PREOCUPE</h4>
                                                 <small className={`text-muted fs-5 my-2`}>NOSSOS SERVIÇOS</small>
                                                 <p className={`fs-4`}>Nossa empresa é capacitada para fornecer a melhor solução, possuímos profissionais altamente qualificados, trazendo até <span className={`text-r`}>você</span> ou a sua <span className={`text-b`}>empresa</span> produtos e Serviços de qualidade, visando sempre o agrado e insatisfação dos nossos clientes, não se satisfaça, procure sempre mais.</p>
-                                                <Link to="servicos">
+                                                <Link to="/servicos">
                                                     <a href="#servicos">
                                                         <Button className={`${styles.saberMaisButton} ${styles.dark}`}>Saber Mais</Button>
                                                     </a>   
@@ -152,7 +152,7 @@ const handleSubmit = (event) => {
                                     </Container>
                                     <Container className={`container-sm d-flex flex-column align-items-center justify-content-center my-5`}>
                                         <h4 className={`fw-bold fs-3`}>LIGUE OU PREENCHA NOSSO FORMULÁRIO</h4>
-                                        <Link to="servicos">
+                                        <Link to="/servicos">
                                             <Button className={`${styles.Button} ${styles.dark} fw-bold mt-3`}>CONHEÇA NOSSOS SERVIÇOS</Button>
                                         </Link>
                                     </Container>
@@ -172,7 +172,7 @@ const handleSubmit = (event) => {
                                     </Container>
                                     <Container className={`container-sm d-flex flex-column align-items-center justify-content-center py-5`}>
                                         <h4 className={`fw-bold fs-3 text-white`}>MARQUE UM HORARIO DE ATENDIMENTO</h4>
-                                        <Link to="contato">
+                                        <Link to="/contato">
                                             <Button className={`${styles.Button} fw-bold mt-3`}>ENTRE EM CONTATO CONOSCO</Button>
                                         </Link>  
                                     </Container>
